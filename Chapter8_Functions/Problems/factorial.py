@@ -1,0 +1,30 @@
+"""
+factorial.py
+The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. It is denoted by n!. For example, 5! = 5 * 4 * 3 * 2 * 1 = 120. The factorial function can be defined recursively as follows:
+- factorial(0) = 1
+- factorial(n) = n * factorial(n - 1) for n > 0
+example:
+factorial(3) = 3 * 2 * 1 = 6
+factorial(0) = 1
+"""
+# factorial of a number using recursion
+def factorial(n):
+    if n == 0:
+        return 1
+    elif n < 0:
+        return "Factorial not defined for negative numbers"
+    else:
+        return n * factorial(n - 1)
+num = int(input("Enter the number: "))
+
+print(factorial(num))
+    
+
+# factorial using recursion
+
+def fact(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fact(n-1)
+print(fact(5))
