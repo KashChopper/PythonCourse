@@ -9,7 +9,7 @@ for i in range(2, number):
     if number % i == 0:
         print(f"{number} is composite")
         break
-    else:
-        print(f"{number} is prime")
+else:
+    print(f"{number} is prime")
 
 
