@@ -20,11 +20,16 @@ num = int(input("Enter the number: "))
 print(factorial(num))
     
 
-# factorial using recursion
+# factorial using simple iterative method
 
 def fact(n):
-    if n == 0:
+    if n < 0:
+        return "Factorial not defined for negative numbers"
+    elif n == 0:
         return 1
     else:
-        return n * fact(n-1)
-print(fact(5))
+        result =1
+        for i in range(1, n+1):
+            result *= i
+        return result
+print(fact(num))

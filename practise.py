@@ -1,26 +1,12 @@
-"""
-Create a list of 5 fruits.
-Print first and last item.
-Add one new fruit.
-Remove second fruit.
-Reverse the list.
-Check if "apple" exists.
 
-"""
-fruits = ["Apple", "Banana", "orange", "Mango", "Peach", "Plum"]
+def fact(n):
+    if n == 0:
+        return 1
+    else:
+        result = 1
+        for i in range(1,n+1):
+            result *= i
+        return result
+num = int(input("enter the number: "))
+print(fact(num))
 
-print(fruits[0], fruits[-1])
-
-fruits.append("Grapes")
-
-print(fruits)
-
-print(fruits.remove("Banana"))
-
-print(fruits)
-
-fruits.reverse()
-print(fruits)
-
-
-print()
