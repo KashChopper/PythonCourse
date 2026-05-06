@@ -1,8 +1,8 @@
 # 4. Write a recursive function to calculate the sum of first n natural numbers.
 
 def sum_n(n):
-    if n <= 0:
-        return 0
+    if n == 1:  # To stop the recursion when n is 1, by which the recursion will not go to negative numbers and will return the sum of first n natural numbers.
+        return 1
     else:
         sum = n + sum_n(n-1)
     return sum
