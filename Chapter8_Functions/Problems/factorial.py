@@ -33,3 +33,9 @@ def fact(n):
             result *= i
         return result
 print(fact(num))
+
+# Using for loop 
+fact = 1
+for i in range(1, num+1):
+    fact = fact * i
+print(fact)
