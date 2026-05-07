@@ -1,7 +1,8 @@
-n = 10
+class Employee:
+    name = "Aasif"
+    age = 24
+    salary = 123333
 
-while n > 0:
-    print(n)
-    n = n-3
-else:
-    print("ok")
+aasif = Employee()
+
+print(aasif.name, aasif.salary)
