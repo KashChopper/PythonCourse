@@ -1,7 +1,7 @@
-def sum_n(n):
-    if n == 0:
-        return 0
-    else:
-        sum = n + sum_n(n-1)
-    return sum
-print(sum_n(3))
+n = 10
+
+while n > 0:
+    print(n)
+    n = n-3
+else:
+    print("ok")
