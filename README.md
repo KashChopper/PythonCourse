@@ -26,6 +26,7 @@ The course is designed for:
 # 🛠️ Topics Covered
 
 ## 🐣 Beginner Level
+
 - Variables & Data Types
 - Input / Output
 - Operators
@@ -36,6 +37,7 @@ The course is designed for:
 - String Handling
 
 ## ⚡ Intermediate Level
+
 - File Handling
 - Exception Handling
 - Modules & Packages
@@ -45,6 +47,7 @@ The course is designed for:
 - Iterators & Generators
 
 ## 🚀 Advanced Level
+
 - Multithreading
 - API Handling
 - Web Scraping
@@ -60,11 +63,12 @@ The course is designed for:
 ```bash
 Python-Course/
 │
-├── 01_Basics/
-├── 02_Conditions_And_Loops/
-├── 03_Functions/
-├── 04_Data_Structures/
-├── 05_OOP/
-├── 06_File_Handling/
-├── 07_Projects/
+├── Basics/
+├── Conditions_And_Loops/
+├── Functions/
+├── Data_Structures/
+├── OOP/
+├── File_Handling/
+├── Projects/
 └── README.md
+```
