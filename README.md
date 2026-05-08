@@ -1,204 +1,70 @@
-# 🐍 Python Mastery Course (Beginner → Expert)
+<h1 align="center">🐍 Python Programming Course</h1>
 
-A complete, structured, and practical Python learning journey designed to take you from **basic understanding to professional-level expertise**.
+<p align="center">
+  Learn Python from Beginner to Advanced with Hands-on Projects 🚀
+</p>
 
----
-
-## 📌 About This Repository
-
-This repository contains my **step-by-step Python learning journey**, covering everything from core fundamentals to advanced concepts, real-world applications, and interview preparation.
-
-The goal is not just to learn syntax, but to understand:
-
-* **How Python works internally**
-* **How to write clean and efficient code**
-* **How to solve real-world problems**
-* **How to prepare for technical interviews**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Beginner-Friendly-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Projects-Hands_On-orange?style=for-the-badge">
+</p>
 
 ---
 
-## 🎯 Learning Goals
+# 📚 About The Course
 
-* ✅ Master Python fundamentals
-* ✅ Write clean, readable, and optimized code
-* ✅ Solve medium to advanced coding problems
-* ✅ Build real-world projects
-* ✅ Prepare for Python interviews
+This repository contains complete Python learning materials starting from the basics to advanced concepts.  
+The course is designed for:
 
----
-
-## 📚 Course Roadmap
-
-### 🔹 Stage 1: Foundations
-
-* Variables & memory behavior
-* Data types & type conversion
-* Mutable vs Immutable
-* Operators
-* Input / Output
-* Scope (global vs local)
+- 🧑‍💻 Beginners starting programming
+- 🎓 Students preparing for coding interviews
+- 🚀 Developers learning Python for Web Development, AI, Automation, and Data Science
 
 ---
 
-### 🔹 Stage 2: Control Flow
+# 🛠️ Topics Covered
 
-* if / elif / else
-* Nested conditions
-* Loops (for, while)
-* break / continue / pass
-* Pattern problems
+## 🐣 Beginner Level
+- Variables & Data Types
+- Input / Output
+- Operators
+- Conditional Statements
+- Loops
+- Functions
+- Lists, Tuples, Sets, Dictionaries
+- String Handling
 
----
+## ⚡ Intermediate Level
+- File Handling
+- Exception Handling
+- Modules & Packages
+- Object-Oriented Programming
+- Lambda Functions
+- Decorators
+- Iterators & Generators
 
-### 🔹 Stage 3: Strings
-
-* String slicing & indexing
-* String methods
-* f-strings
-* Regex basics
-
----
-
-### 🔹 Stage 4: Data Structures
-
-* Lists (methods + comprehensions)
-* Tuples
-* Sets
-* Dictionaries
-* Real-world practice
-
----
-
-### 🔹 Stage 5: Functions & Recursion
-
-* Function types
-* Parameters & return values
-* *args / **kwargs
-* Lambda functions
-* Recursion
+## 🚀 Advanced Level
+- Multithreading
+- API Handling
+- Web Scraping
+- Database Connectivity
+- Automation Scripts
+- Flask Basics
+- Data Analysis Basics
 
 ---
 
-### 🔹 Stage 6: Pythonic Coding
+# 📂 Course Structure
 
-* map(), filter(), zip()
-* enumerate()
-* Comprehensions
-* Sorting with key
-
----
-
-### 🔹 Stage 7: OOP (Object-Oriented Programming)
-
-* Classes & objects
-* Inheritance
-* Polymorphism
-* Encapsulation
-* Abstraction
-
----
-
-### 🔹 Stage 8: Exception Handling
-
-* try / except / finally
-* Custom exceptions
-
----
-
-### 🔹 Stage 9: File Handling
-
-* File operations
-* JSON / CSV
-* OS module
-
----
-
-### 🔹 Stage 10+: Advanced Topics
-
-* Decorators
-* Generators
-* Iterators
-* Context managers
-* Performance optimization
-
----
-
-## 🛠️ Projects Included
-
-* 📊 Expense Tracker
-* 🏧 ATM Machine
-* 📦 Inventory Manager
-* 🌐 API-based Apps
-* 📁 File Organizer
-
----
-
-## 🧠 Learning Approach
-
-This course focuses on:
-
-* ✔ Concept clarity over memorization
-* ✔ Real-world examples
-* ✔ Hands-on practice
-* ✔ Interview-oriented questions
-* ✔ Clean and professional coding style
-
----
-
-## 📅 Weekly Study Plan
-
-| Day       | Focus               |
-| --------- | ------------------- |
-| Monday    | Core Concepts       |
-| Tuesday   | Coding Practice     |
-| Wednesday | OOP                 |
-| Thursday  | Advanced Topics     |
-| Friday    | Projects            |
-| Saturday  | Interview Questions |
-| Sunday    | Revision            |
-
----
-
-## 🚀 How to Use This Repo
-
-1. Follow topics in order
-2. Practice alongside code
-3. Solve problems regularly
-4. Build mini-projects
-5. Revise weekly
-
----
-
-## 📈 Progress Tracker
-
-* [ ] Foundations
-* [ ] Control Flow
-* [ ] Strings
-* [ ] Data Structures
-* [ ] Functions & Recursion
-* [ ] Pythonic Coding
-* [ ] OOP
-* [ ] Advanced Topics
-* [ ] Projects
-* [ ] Interview Preparation
-
----
-
-## 🤝 Contributing
-
-This is a personal learning repository, but suggestions and improvements are always welcome!
-
----
-
-## ⭐ Final Note
-
-> "Don't just learn Python syntax.
-> Understand how Python thinks."
-
----
-
-## 📬 Connect
-
-Feel free to connect, collaborate, or share feedback!
-
----
+```bash
+Python-Course/
+│
+├── 01_Basics/
+├── 02_Conditions_And_Loops/
+├── 03_Functions/
+├── 04_Data_Structures/
+├── 05_OOP/
+├── 06_File_Handling/
+├── 07_Projects/
+└── README.md
