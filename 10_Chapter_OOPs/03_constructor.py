@@ -1,3 +1,48 @@
+"""
+A constructor is a special method that is automatically called when an object is created
+in python, the constructor method is
+ 
+_int_()
+
+
+"""
+
+class student:
+    def __init__(self):
+        print("Constructor is executed")
+
+
+
+#______________________________________
+
+# constructor with parameters 
+class student:
+    def __init__(self, name , age):
+        self.name = name
+        self.age = age
+
+
+s1 = student("Aasif", 24)
+print(s1.name, s1.age)
+
+s2 = student("Ayan", 22)
+
+print(s2.name, s2.age)
+
+
+#Static Method
+# when we don't  wont to use self parameter and we need to call method without creating object
+
+class greet:
+    @staticmethod
+    def ask():
+        print("How are you")
+
+
+greet.ask()
+
+
+
 class Bike:
     name = "Duke"
     color = "yellow"
