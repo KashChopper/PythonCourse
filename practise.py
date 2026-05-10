@@ -1,18 +1,19 @@
-class Employee:
-    def __init__(self, name, salary):
-        self.__name = name  # Private attribute
-        self.__salary = salary  # Private attribute 
+from random import randint
+number = randint(1,100)
 
-    # Getter method for name
-    def get_name(self):
-        return self.__name
-    
-    # Setter method for name
-    def set_name(self, name):
-        self.__name = name.strip()  # Removing any leading or trailing whitespace from the name
+user = -1
+guess = 0
 
-e = Employee("Aasif", 120000)
+while user != number:
+    guess = guess + 1
+    user = int(input("Guess number: "))
 
-print(e.get_name())  # Accessing name using getter
-e.set_name("Aasif Khan")  # Modifying name using setter
-print(e.get_name())  # Accessing updated name using getter
+
+    if user < number:
+        print("higher number")
+
+    else:
+         print("lower number")
+
+
+print(f"You guessed in {guess} attempts")
