@@ -4,3 +4,7 @@ Walrus operator (:=) is a new assignment expression introduced in Python 3.8. It
 
 if (n := len("Hello, World!")) > 10:
     print(f"The length of the string is {n}, which is greater than 10.") 
+
+
+if name:= input("Enter name: "):
+    print(name)
