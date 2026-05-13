@@ -1,19 +1,20 @@
-from random import randint
-number = randint(1,100)
+try:
+    a = int(input("Enter value of a: "))
+    b = int(input("Enter value of b: "))
 
-user = -1
-guess = 0
+    if b == 0:
+        raise ZeroDivisionError("Division by zero")
 
-while user != number:
-    guess = guess + 1
-    user = int(input("Guess number: "))
+    result = a / b
 
+except ZeroDivisionError as e:
+    print("Exception:", e)
 
-    if user < number:
-        print("higher number")
+except ValueError:
+    print("Exception: Please enter valid integers")
 
-    else:
-         print("lower number")
+else:
+    print("Result =", result)
 
-
-print(f"You guessed in {guess} attempts")
+finally:
+    print("Program execution completed")
