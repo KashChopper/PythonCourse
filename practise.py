@@ -1,20 +1,19 @@
-try:
-    a = int(input("Enter value of a: "))
-    b = int(input("Enter value of b: "))
+nums = [4,2,3,4]
 
-    if b == 0:
-        raise ZeroDivisionError("Division by zero")
 
-    result = a / b
+def is_triangle(a,b,c):
+    if a+b>c and b+c>a and c+a>b:
+        return True
+    return False
 
-except ZeroDivisionError as e:
-    print("Exception:", e)
+count = 0
+for i in range(len(nums)):
+    for j in range(i+1, len(nums)):
+        for k in range(j+1, len(nums)):
+            if is_triangle(nums[i], nums[j], nums[k]):
+                count += 1
 
-except ValueError:
-    print("Exception: Please enter valid integers")
 
-else:
-    print("Result =", result)
+print(count)
 
-finally:
-    print("Program execution completed")
+
