@@ -1,5 +1,5 @@
 """
-A decorator is a function that takes another function as an argument and return a new function that modifies the behavior of the original function. The new function is often referred to as "decorate" function
+A decorator is a function that takes another function as an argument and return a new function that modifies the behavior of the original function. The new function is often referred to as "decorated" function
 
 """
 
@@ -21,6 +21,6 @@ def greet(fn):
 def hello():
     print("Hello world")
     
-# Now we need to call only hello function the decorator greet will that greet function as argument internally in will works as greet(hello)()
+# Now we need to call only hello function and it will automatically call the greet function as well
 
 hello()
