@@ -1,5 +1,13 @@
 """
 In python tuple is an ordered, immutable collection used to store multiple items/values in a single variable.
+
+Key features:
+1. Ordered: The items in a tuple have a defined order, and that order will not change unless you explicitly reorder the tuple.
+2. Immutable: Once a tuple is created, you cannot change, add, or remove items from it.
+3. Allows Duplicates: Tuples can contain multiple instances of the same value.
+4. Dynamic Size: Tuples can grow and shrink in size as needed.
+5. Heterogeneous: Tuples can contain items of different data types.
+
 """
 cars_tuple = ("Toyota", "Honda", "Ford", "BMW", "Mercedes")
 
